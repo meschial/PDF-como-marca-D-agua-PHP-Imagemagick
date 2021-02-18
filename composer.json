@@ -1,0 +1,24 @@
+{
+    "name"             : "Conveter nome para pdf",
+    "description"      : "Add nome como marca d'agua",
+    "minimum-stability": "dev",
+    "license"          : "MIT",
+    "type"             : "library",
+    
+    "require": {
+        "php": ">=5.6 || >=7.0"
+    },
+    "autoload": {
+        "psr-4": {"Ajaxray\\PHPWatermark\\": "src/Ajaxray/PHPWatermark/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ajaxray\\PHPWatermark\\Tests\\": "tests/Ajaxray/PHPWatermark/",
+            "Ajaxray\\TestUtils\\": "tests/Ajaxray/TestUtils/"
+        }
+    },
+    "require-dev": {
+        "satooshi/php-coveralls": "v2.*",
+        "phpunit/phpunit": "^5.7 || ^6.5"
+    }
+}
